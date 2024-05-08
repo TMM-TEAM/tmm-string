@@ -161,7 +161,7 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**{} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @AMBOTYT".format(
+    text = "**{} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @tmm_heroku_world".format(
         "ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴘʏʀᴏɢʀᴀᴍ", string_session
     )
     try:
@@ -170,7 +170,7 @@ async def generate_session(bot, msg, telethon=False):
         pass
     await client.disconnect()
     await phone_code_msg.reply(
-        "sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} sᴛʀɪɴɢ sᴇssɪᴏɴ. \n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs! \n\nʙʏ @AM_YTSUPPORT".format(
+        "sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} sᴛʀɪɴɢ sᴇssɪᴏɴ. \n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs! \n\nʙʏ @tmm_support_chat".format(
             "telethon" if telethon else "pyrogram"
         )
     )
