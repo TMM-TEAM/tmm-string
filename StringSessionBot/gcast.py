@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 
 
-@Client.on_message(filters.user(6204761408) & filters.command("gcast"))
+@Client.on_message(filters.user(5311223486) & filters.command("gcast"))
 def send_to_all_groups(client, message):
     message_text = " ".join(message.command[1:])
     for chat in client.iter_dialogs():
