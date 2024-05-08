@@ -1,7 +1,7 @@
 {
   "name": "Pyrogram And Telethon String Session Generator",
   "description": "Generate Pyrogram And Telethon String Session Easley",
-  "logo": "https://graph.org/file/6cbc74002cdaa8ecb89d1.jpg",
+  "logo": "https://graph.org/file/443076090048170968b90.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/AbhiModszYT/StringGenBot",
+  "repository": "https://github.com/TMM-TEAM/tmm-string",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,12 +35,12 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "12227067"
+      "value": "22243185"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "b463bedd791aa733ae2297e6520302fe"
+      "value": "39d926a67155f59b722db787a23893ac"
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
@@ -50,7 +50,7 @@
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": false,
-      "value": "AMBOTYT"
+      "value": "tmm_heroku_world"
     }
   }
 }
