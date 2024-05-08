@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "12227067").strip()
-API_HASH = os.getenv("API_HASH", "b463bedd791aa733ae2297e6520302fe").strip()
+API_ID = os.getenv("API_ID", "22243185").strip()
+API_HASH = os.getenv("API_HASH", "39d926a67155f59b722db787a23893ac").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "postgres://citus:AbhiModszYT12@c-yone.2iti2yet5lss6l.postgres.cosmos.azure.com:5432/yone").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "AMBOTYT")
+MUST_JOIN = os.getenv("MUST_JOIN", "tmm_heroku_world")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
